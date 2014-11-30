@@ -33,110 +33,304 @@ function getImg(id)
 }
 
 </script>
-    <style>
- @font-face{
-        font-family:Lato-Regular;
-        src:url(fonts/Lato-Regular.ttf);
+        <style>
+        body{
+            background-color: #eceadc;
+        }
+        #portfolio{
+            background-color: #eceadc;
+        }
+          #about{
+            background-color: #eceadc;
+        }
+          @media(min-width: 1025px){
+
+            #portfolioline{
+                margin-top:-20px;
+            }
+
+            #aboutline{
+                margin-top:-20px;
+            }
+
+            #portfolio{
+                margin-top:-85px;
+            }
+
+            #about{
+                margin-top:-215px;
+            }
+
+            .profPic{
+                margin-top:74px;
+            }
+
+        }
+
+        @media(max-width: 1024px){
+         #portfolioline{
+            margin-top:-21px;
+        }
+
+        #aboutline{
+            margin-top:-21px;}
+
+          .profPic{
+                margin-top:74px;
+            }
+       /* }
+        #portfolio{
+            margin-top:-80px;
+        }
+
+        #about{
+            margin-top:-215px;
+        }*/
+
+       /* #portfolioNew{
+           
+        }*/
     }
 
-    body{
-        font-family:"Lato-Regular";
-       
+
+
+    @media(max-width: 220px) {
+     #portfolioline{
+        margin-top:-16px;
     }
 
-
-    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #ffffff;
-background-color: #103235;
-}
-
-
-
-    .navbar-header{
-         background-color: #1b444a;
-    }
-   
-    .lato-reg{
-         font-family: "Lato-Regular";
-
+    #aboutline{
+        margin-top:-16px;
     }
 
-    .contact-list{
-        padding-left: 0;
-list-style: none;
-margin-left: -5px;
-    }
-    
-    .navbar-default{
-        background-color: #1b444a;
-         
-    }
-    header{
-        background-color: #eceadc;
-    }
     #portfolio{
-        background-color: #eceadc;
-    }
-    
-    #about{
-        background-color: #FFFFFF;
-        font-family: "Lato-Regular";
-        color:black;
-    }
-    #contact{
-        background-color: #eceadc;
-    }
-    .Footer{
-         background-color: #1b444a;
-    }
-    #signature{
-        font-family:"Lato-Regular";
-        color:#1b444a;
-    }
-    .container{
-       /* background-color: #eceadc;*/
-    }
-    #about{
-        background-color: #eceadc;
-    }
-    section h2{
-        color:#1b444a;
-        
-        margin-top: -55px;
-    padding-bottom: 39px
-    }
-    footer .footer-above{
-        background-color: #1b444a;
-        padding-bottom: 20px;
-    }
-    .btn-success{
-         background-color: #1b444a;
-         border-color: #1b444a;
-    }
-     footer .footer-below{
-        background-color: #eceadc;
-        padding:9px;
-        color:#1b444a;
-    }
-       hr{
-        background: #b14327; 
-        border:1px;
-        height: 5px;
-        padding-bottom: -2px;
-        margin:0;
+        margin-top:-60px;
     }
 
-    #portfolio .portfolio-item .portfolio-link .caption {
-position: absolute;
-width: 100%;
-height: 100%;
-opacity: 0;
-background: rgba(27,68,74,.8);    /* change fo hover blue */
--webkit-transition: all ease .5s;
--moz-transition: all ease .5s;
-transition: all ease .5s;
+    #about{
+        margin-top:-140px;
+    }
 }
-    </style>
+
+@media(min-width: 320px) and (max-width: 960px){
+ #portfolioline{
+    margin-left:-15px;
+}
+
+#aboutline{
+    margin-left:-15px;
+}
+#portfolio{
+    margin-top:-115px;
+}
+
+#about{
+    margin-top:-215px;
+}
+
+}
+
+@media(min-width: 320px) and (max-width: 390px){
+ #portfolioline{
+    margin-top:-16px;
+}
+
+#aboutline{
+    margin-top:-16px;
+}
+#portfolio{
+    margin-top:-65px;
+}
+#about{
+    margin-top:-140px;
+}
+
+.intro-text{
+    margin-bottom:73px;
+}
+
+.profPic{
+    margin-top: 100px;
+}
+}
+
+@media(min-width: 391px) and (max-width: 700px){
+
+ #portfolioline{
+    margin-top:365px;
+}
+
+#aboutline{
+    margin-top:-15px;
+}
+#portfolio{
+    margin-top:-20px;
+}
+#about{
+    margin-top:-140px;
+}
+}
+
+
+@media(min-width: 701px) and (max-width: 721px){
+
+ #portfolioline{
+    margin-top:-16px;
+}
+
+#aboutline{
+    margin-top:-16px;
+}
+#portfolio{
+    margin-top:-65px;
+}
+#about{
+    margin-top:-140px;
+}
+}
+
+
+@media(min-width: 725px) and (max-width: 1023px){
+ #portfolioline{
+    margin-top:-20px;
+}
+
+#aboutline{
+    margin-top:-21px;
+}
+#portfolio{
+    margin-top:-65px;
+}
+#about{
+    margin-top:-150px;
+}
+
+.profPic{
+    margin-top: 70px;
+}
+}
+
+
+
+@font-face{
+    font-family:Lato-Regular;
+    src:url(fonts/Lato-Regular.ttf);
+}
+
+body
+{
+    font-family:"Lato-Regular";
+
+}
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus 
+{
+    color: #ffffff;
+    background-color: #103235;
+}
+
+
+
+.navbar-header
+{
+ background-color: #1b444a;
+}
+
+.lato-reg
+{
+ font-family: "Lato-Regular";
+
+}
+
+.contact-list
+{
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+
+.navbar-default{
+    background-color: #1b444a;
+
+}
+header{
+    background-color: #eceadc;
+}
+#portfolioNew{
+    background-color: #eceadc;
+}
+
+#aboutNew{
+    background-color: #FFFFFF;
+    font-family: "Lato-Regular";
+    color:black;
+}
+
+#writingsNew{
+    background-color: #FFFFFF;
+    font-family: "Lato-Regular";
+    color:black;
+}
+
+#contact{
+    background-color: #eceadc;
+}
+.Footer{
+ background-color: #1b444a;
+}
+#signature{
+    font-family:"Lato-Regular";
+    color:#1b444a;
+}
+.container{
+   /* background-color: #eceadc;*/
+}
+#aboutNew{
+    background-color: #eceadc;
+}
+
+.drawLine{
+    margin-top:0px;
+}
+section h2{
+    color:#1b444a;
+
+    margin-top: -55px;
+    padding-bottom: 39px
+}
+footer .footer-above{
+    background-color: #1b444a;
+    padding-bottom: 20px;
+}
+.btn-success{
+ background-color: #1b444a;
+ border-color: #1b444a;
+}
+footer .footer-below{
+    background-color: #eceadc;
+    padding:9px;
+    color:#1b444a;
+}
+hr{
+    background: #b14327; 
+    border:1px;
+    height: 5px;
+    padding-bottom: -2px;
+    margin:0;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(27,68,74,.8);    /* change fo hover blue */
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+</style>
 
 
 </head> 
@@ -185,196 +379,304 @@ transition: all ease .5s;
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
+                   <img class="img-responsive" src="img/profile.png" alt="">
                     <div class="intro-text">
                         <span id="signature" class="name">Saba Singh</span>
                     </div>
                 </div>
             </div>
         </div>
-        <section id="portfolioNew">
-             <hr id="portfolioline" style="margin-top:-20px;"></hr>
-         </section>
+      
     </header>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio" style="margin-top:-115px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 id="work-heading">Work</h2>
-                </div>
+   <section id="portfolioNew">
+  <hr id="portfolioline"></hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="drawLine" id="work-heading">Work</h2>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=1' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>       -->
-                            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 portfolio-item">
+                <a href='portfolioModal.html?id=1' class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <p> Caption this </p>       <!-- Add in place <i class="fa ...search-plu"-->
+                            <!--  <i class="fa fa-search-plus fa-3x"></i> -->
                         </div>
-                        <img src="img/portfolio/digitalmuseo.png" class="img-responsive" alt="">
-                    </a>
-                    
+                    </div>
+                    <img src="img/portfolio/digitalmuseo.png" class="img-responsive" alt="">
+                </a>
+
+                <div class="portfolio-link" data-toggle="modal">
+                   
                     <p><strong>Brand Development:</strong> DIGITALMUSEO is a platform for artists & art ethusiasts to share & experience digital contemporary art. Designed to resemble a museum-like experience online, the brand is developed with 3 concepts in mind: simplicity, flexibility, sophistication. </p>
                 </div>
 
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=2' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
+
+            </div>
+
+            <div class="col-sm-4 portfolio-item">
+                <a href='portfolioModal.html?id=2' class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
                         </div>
-                        <img src="img/portfolio/wireframing.png" class="img-responsive" alt="">
-                    </a>
-                       <p><strong> Web and App Design:</strong> the website and mobile application of DIGITALMUSEO aim to bring an art community to life through simple navigation, clean pages and a focus on the visual element.  </p>
+                    </div>
+                    <img src="img/portfolio/wireframing.png" class="img-responsive" alt="">
+                </a>
+                <div class="portfolio-link" data-toggle="modal">
+                  
+                    <p><strong> Web and App Design:</strong> the website and mobile application of DIGITALMUSEO aim to bring an art community to life through simple navigation, clean pages and a focus on the visual element.  </p>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=3' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
+
+
+
+
+            </div>
+            <div class="col-sm-4 portfolio-item">
+                <a href='portfolioModal.html?id=3' class="portfolio-link" data-toggle="modal">
+                    <div class="caption">
+                        <div class="caption-content">
+                            <i class="fa fa-search-plus fa-3x"></i>
                         </div>
-                        <img src="img/portfolio/airportservice.png" class="img-responsive" alt="">
-                    </a>
-                     <p><strong>Service Design:</strong> Researching the customer's journey through Qatar's Hamad International Airport brought to light  prominent breakdown points, one being the check-in process. This was further investigated & the back & front-end of the check-in were illustrated to highlight futher breakdown areas. </p>
+                    </div>
+                    <img src="img/portfolio/airportservice.png" class="img-responsive" alt="">
+                </a>
+
+
+                <div class="portfolio-link" data-toggle="modal">
+                 
+                    <p><strong>Service Design:</strong> Researching the customer's journey through Qatar's Hamad International Airport brought to light  prominent breakdown points, one being the check-in process. This was further investigated & the back & front-end of the check-in were illustrated to highlight futher breakdown areas. </p>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                   <a href='portfolioModal.html?id=4' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/personalbrand.png" class="img-responsive" alt="">
-                    </a>
-                       <p><strong>Personal Identity:</strong> Portraying myself through a visual element required focus on 2 of the cultures that have impacted me: Indian & Arab. My personal identity is an amalgamation of these cultures, my passion for design and oil painting.</p>
+
+
+
+            </div>
+            <div class="col-sm-4 portfolio-item">
+               <a href='portfolioModal.html?id=4' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=5' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/surajkund.png" class="img-responsive" alt="">
-                    </a>
-                    <p><strong>Digital Children's Book:</strong> This iBook explores one of Delhi's most celebrated traditional fairs, the <em>Surajkund Mela</em>. Blending inkpen sketches, digital designs & animations, it plays on the fair's traditional stalls & modern visitors.</p>
+                <img src="img/portfolio/personalbrand.png" class="img-responsive" alt="">
+            </a>
+
+            <div class="portfolio-link" data-toggle="modal">
+               
+                <p><strong>Personal Identity:</strong> Portraying myself through a visual element required focus on 2 of the cultures that have impacted me: Indian & Arab. My personal identity is an amalgamation of these cultures, my passion for design and oil painting.</p>
+            </div>
+
+
+
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=5' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                   <a href='portfolioModal.html?id=6' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ambient_device.png" class="img-responsive" alt="">
-                    </a>
-                       <p><strong>Ambient Device:</strong> BLANK is an ambient device that uses sensors and gestures to provide real time information about soil nutrition and moisture levels. At a glance the user will know when is a good idea to water and add nutrition to the soil. </p>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=7' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tedxec.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>Event Branding:</strong> Using location design to attract local attention, TEDxEducationCity's posters, roll ups and banners used Hamad Bin Khalifa University Student Center's architecture to target students from accross Qatar.   </p>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=8' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/puppenstein.png" class="img-responsive" alt="">
-                    </a>
-                    <p><strong>Filming & 3D Animation:</strong><em>Puppenstein</em> explores the deepest desires of a man plagued by disease & death. In an effort to balance the building violence and restraint within himself, he develops a not-so-scary army of ragged puppets.</p>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=9' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/whatsapp.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>Infographic Development:</strong> This project inlcuded analyzing one week of Whatsapp chats and illustrating essential information. This included developing character faces, categorizing content and analyzing data as a whole. </p>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=10' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/untitled.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>Untitled</strong></p><p>Saba Singh</p><p>Oils, Plastic Bags, Block Prints</p>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=11' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/drums.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>The Tabla Player</strong></p><p>Saba Singh</p><p>Oils</p><br><br>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=12' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/reflections.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>Reflections</strong></p><p>Saba Singh</p><p>Oils</p><br><br>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=13' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/pianoanddrums.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>Pianos and Drums</strong></p><p>Saba Singh</p><p>Oils</p><p>Inspired by Gabriel Okara's poem titled <i>Pianos and Drums</i></p>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href='portfolioModal.html?id=14' class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <!-- <p> Caption this </p>  -->
-                            </div>
-                        </div>
-                        <img src="img/portfolio/yinyang.png" class="img-responsive" alt="">
-                    </a>
-                      <p><strong>World View Series</strong></p><p>Saba Singh</p><br><br><br><br>
+                <img src="img/portfolio/surajkund.png" class="img-responsive" alt="">
+            </a>
+
+            <div class="portfolio-link" data-toggle="modal">
+               
+                <p><strong>Digital Children's Book:</strong> This iBook explores one of Delhi's most celebrated traditional fairs, the <em>Surajkund Mela</em>. Blending inkpen sketches, digital designs & animations, it plays on the fair's traditional stalls & modern visitors.</p>
+            </div>
+
+
+
+        </div>
+        <div class="col-sm-4 portfolio-item">
+           <a href='portfolioModal.html?id=6' class="portfolio-link" data-toggle="modal">
+            <div class="caption">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
                 </div>
             </div>
+            <img src="img/portfolio/ambient_device.png" class="img-responsive" alt="">
+        </a>
+
+         <div class="portfolio-link" data-toggle="modal">
+              
+                   <p><strong>Ambient Device:</strong> BLANK is an ambient device that uses sensors and gestures to provide real time information about soil nutrition and moisture levels. At a glance the user will know when is a good idea to water and add nutrition to the soil. </p>
+            </div>
+
+       
+
+
         </div>
-        <section id="writingsNew">
-  <hr  style="margin-top:-20px;"></hr>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=7' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/tedxec.png" class="img-responsive" alt="">
+            </a>
+
+
+             <div class="portfolio-link" data-toggle="modal">
+                
+                    <p><strong>Event Branding:</strong> Using location design to attract local attention, TEDxEducationCity's posters, roll ups and banners used Hamad Bin Khalifa University Student Center's architecture to target students from accross Qatar.   </p>
+            </div>
+
+
+          
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=8' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/puppenstein.png" class="img-responsive" alt="">
+            </a>
+
+
+             <div class="portfolio-link" data-toggle="modal">
+              
+                   <p><strong>Filming & 3D Animation:</strong><em>Puppenstein</em> explores the deepest desires of a man plagued by disease & death. In an effort to balance the building violence and restraint within himself, he develops a not-so-scary army of ragged puppets.</p>
+            </div>
+
+
+
+          
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=9' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/whatsapp.png" class="img-responsive" alt="">
+            </a>
+
+
+               <div class="portfolio-link" data-toggle="modal">
+                
+                  <p><strong>Infographic Development:</strong> This project inlcuded analyzing one week of Whatsapp chats and illustrating essential information. This included developing character faces, categorizing content and analyzing data as a whole. </p>
+            </div>
+
+          
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=10' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/untitled.png" class="img-responsive" alt="">
+            </a>
+
+
+
+               <div class="portfolio-link" data-toggle="modal">
+                
+                  <p><strong>Untitled</strong></p><p>Saba Singh</p><p>Oils, Plastic Bags, Block Prints</p>
+            </div>
+
+          
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=11' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/drums.png" class="img-responsive" alt="">
+            </a>
+
+
+                <div class="portfolio-link" data-toggle="modal">
+               
+                  <p><strong>The Tabla Player</strong></p><p>Saba Singh</p><p>Oils</p><br><br>
+            </div>
+
+
+          
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=12' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/reflections.png" class="img-responsive" alt="">
+            </a>
+
+               <div class="portfolio-link" data-toggle="modal">
+              
+                <p><strong>Reflections</strong></p><p>Saba Singh</p><p>Oils</p><br><br>
+            </div>
+
+
+            
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=13' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/pianoanddrums.png" class="img-responsive" alt="">
+            </a>
+
+
+
+               <div class="portfolio-link" data-toggle="modal">
+               
+                 <p><strong>Pianos and Drums</strong></p><p>Saba Singh</p><p>Oils</p><p>Inspired by Gabriel Okara's poem titled <i>Pianos and Drums</i></p>
+            </div>
+
+           
+        </div>
+        <div class="col-sm-4 portfolio-item">
+            <a href='portfolioModal.html?id=14' class="portfolio-link" data-toggle="modal">
+                <div class="caption">
+                    <div class="caption-content">
+                        <i class="fa fa-search-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img src="img/portfolio/yinyang.png" class="img-responsive" alt="">
+            </a>
+
+
+                  <div class="portfolio-link" data-toggle="modal">
+                
+                   <p><strong>World View Series</strong></p><p>Saba Singh</p><br><br><br><br>
+            </div>
+
+
+
+
+           
+        </div>
+    </div>
+</div>
+<!-- <section id="aboutNew">
+  
+</section> -->
 </section>
-    </section>
    
     <!-- Writings Section -->
-    <section class="success" id="about" style="margin-top:-215px;">
+    <section class="success" id="writingsNew">
+    <hr id="writingline">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 style="margin-bottom: -5px;">Publications and Writing</h2>
+                    <h2 class="drawLine" >Publications and Writing</h2>
                     
                 </div>
             </div>
@@ -405,47 +707,46 @@ transition: all ease .5s;
 
             </div>
         </div>
-   <section id="aboutNew">
-  <hr  style="margin-top:-20px;"></hr>
-</section>
+ 
     </section>
 
 
-    <section class="success" id="about" style="margin-top:-215px;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 style="margin-bottom: -5px;">About</h2>
-                    
-                </div>
-            </div>
-            <div class="row">
-               <div class="col-sm-8">
-                      
-                    <p>sample text sample text a b b b b b b b b b b sample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample text</p>
-                    <a href="https://www.dropbox.com/s/x3wgwqgpmyvhzhw/Saba%20Singh%20Resume.pdf" target="_blank"> View Resume </a> 
-                </div>
-
-                <div class="col-sm-4">
-                    <img src="img/portfolio/digitalmuseo.png" class="img-responsive" alt="">
-                </div>
-               
-            </div>
-
-             <div class="row">
-                <div class="col-sm-1">                      
-                </div>
-
-                <div class="col-sm-3">
-                                     
-                </div>
-
-                <div class="col-sm-8">                      
-                </div>
+   <section class="success " id="aboutNew">
+<hr  id="aboutline" ></hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="drawLine">About</h2>
 
             </div>
         </div>
-    </section>
+        <div class="row">
+           <div class="col-sm-8">
+
+            <p>sample text sample text a b b b b b b b b b b sample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample textsample text</p>
+            <a href="https://www.dropbox.com/s/x3wgwqgpmyvhzhw/Saba%20Singh%20Resume.pdf" target="_blank"> View Resume </a> 
+        </div>
+
+        <div class="col-sm-4">
+            <img src="img/portfolio/digitalmuseo.png" class="img-responsive" alt="">
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-1">                      
+        </div>
+
+        <div class="col-sm-3">
+
+        </div>
+
+        <div class="col-sm-8">                      
+        </div>
+
+    </div>
+</div>
+</section>
  
     <!-- Contact Section -->
     
