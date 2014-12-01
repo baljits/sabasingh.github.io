@@ -14,6 +14,7 @@
   <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
+
   <!-- Custom CSS -->
   <link href="css/freelancer.css" rel="stylesheet">
   <link href="css/jquery.bxslider.css" rel="stylesheet">
@@ -45,115 +46,236 @@
 
         <!-- Custom Theme JavaScript -->
         <script src="js/freelancer.js"></script>
+<script src="js/bootstrap-modal-carousel.min.js"></script>
+    <script src="js/demo.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap-modal-carousel.min.css">
 
+      </script>
 
+      <style>
+        #portfolioModal6 {
+          display:none;
+        }
 
-        <style>
-          @font-face{
-            font-family:Lato-Regular;
-            src:url(fonts/Lato-Regular.ttf);
+        @font-face{
+          font-family:Lato-Regular;
+          src:url(fonts/Lato-Regular.ttf);
+        }
+
+        body{
+          font-family:"Lato-Regular";
+
+        }
+
+        @media(min-width: 2560px){
+
+        /*  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+              margin-left: -60px;
+          }*/
+
+           .slideImg{
+            margin-top: 110px;
+             margin-left: 455px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:70%;
           }
 
-          body{
-            font-family:"Lato-Regular";
-
+          .slideMoreLeft
+          {
+            margin-left:500px;
           }
 
-
-          @media(min-width: 1025px){
-
-            .slideImg1{
-              margin-top: 0px;
-              margin-left: 0px;
-            }
-            .leftVideo{
-              margin-left:-10px
-            }
-
-            .leftImg{
-              margin-left:-10px
-            }
-
-            .titleText{
-              margin-top:-21px; 
-              width:105%;
-              /*margin-left: 10%;*/
-            }
-
-            .imgTitle {
-              padding-top: 130px;
-              padding-left: 14px;
-              padding-bottom: 140px;
-            }
-
-            .imgTitle1 {
-              padding-top: 130px;
-              padding-left: 14px;
-              padding-bottom: 140px;
-            }
-
-            .imgTitle2 {
-              padding-top: 0px;
-              padding-left: 14px;
-              padding-bottom: 140px;
-            }
+          .slideImg1{
+            margin-top: 10px;
+            padding-top:30px;
+            margin-left: 455px;
           }
 
-          @media(max-width: 1024px){
-           .slideImg1{
-            margin-top: -220px;
-            margin-left: 0px;
-          }
-
-
-
-          .titleText{
-            margin-top:-21px; 
-            /* width:0%;*/
-            margin-left: 17%;
-          }
-
+         
           .leftVideo{
-            margin-left:0px
+            margin-left:-10px
           }
 
           .leftImg{
-            margin-left:0px
+            margin-left:-10px
+          }
+
+          .titleText{
+            margin-top:-21px; 
+            width:50%;
+            margin-left: -40px;
+          }
+
+          .titleText1{
+            margin-left:71px;
           }
 
           .imgTitle {
-            padding-top: 0px;
+            padding-top: 130px;
             padding-left: 14px;
             padding-bottom: 140px;
           }
 
           .imgTitle1 {
-           padding-top: 35px;
-           margin-left: 89px;
-           padding-bottom: 140px;
-         }
+            padding-top: 140px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
 
-         .imgTitle2 {
-          padding-top: 20px;
-          padding-left: 90px;
-          padding-bottom: 140px;
+          .imgTitle2 {
+            padding-top: 40px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
         }
 
-      }
 
 
 
-      @media(max-width: 220px) {
+          @media(min-width: 1920px) and (max-width:2500px){
 
-        .slideImg1{
+           
+ 
+           .slideImg{
+            margin-top: 110px;
+             margin-left: 235px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:85%;
+          }
+
+      .slideImg1{
+           margin-top: 30px;
+             margin-left: 235px;
+          }
+          .leftVideo{
+            margin-left:-10px
+          }
+
+          .leftImg{
+            margin-left:-10px
+          }
+
+          .titleText{
+            margin-top:-21px; 
+            width:70%;
+            /*margin-left: 10%;*/
+          }
+
+          .imgTitle {
+            padding-top: 130px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
+
+          .imgTitle1 {
+            padding-top: 130px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
+
+          .imgTitle2 {
+              padding-top: 40px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
+        }
+
+
+        @media(min-width: 1025px) and (max-width:1900px){
+
+            .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
+
+
+
+
+
+
+
+
+
+
+
+          .slideImg1{
+            margin-top: 0px;
+            margin-left: 0px;
+          }
+          .leftVideo{
+            margin-left:-10px
+          }
+
+          .leftImg{
+            margin-left:-10px
+          }
+
+          .titleText{
+            margin-top:-21px; 
+            width:105%;
+            /*margin-left: 10%;*/
+          }
+
+          .imgTitle {
+            padding-top: 130px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
+
+          .imgTitle1 {
+            padding-top: 130px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
+
+          .imgTitle2 {
+            padding-top: 0px;
+            padding-left: 14px;
+            padding-bottom: 140px;
+          }
+        }
+
+        @media(max-width: 1024px){
+
+             .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
+
+
+         .slideImg1{
           margin-top: -220px;
           margin-left: 0px;
         }
 
+
+
         .titleText{
           margin-top:-21px; 
-          width:115%;
-          margin-left: 7%;
+          /* width:0%;*/
+          margin-left: 17%;
         }
 
         .leftVideo{
@@ -161,7 +283,7 @@
         }
 
         .leftImg{
-          margin-left:9px
+          margin-left:0px
         }
 
         .imgTitle {
@@ -172,18 +294,32 @@
 
         .imgTitle1 {
          padding-top: 35px;
-         padding-left: 0px;
+         margin-left: 89px;
          padding-bottom: 140px;
        }
 
        .imgTitle2 {
         padding-top: 20px;
-        padding-left: 14px;
+        padding-left: 90px;
         padding-bottom: 140px;
       }
+
     }
 
-    @media(min-width: 320px) and (max-width: 960px){
+
+
+    @media(max-width: 220px) {
+
+         .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
 
       .slideImg1{
         margin-top: -220px;
@@ -201,7 +337,7 @@
       }
 
       .leftImg{
-        margin-left:-16px
+        margin-left:9px
       }
 
       .imgTitle {
@@ -212,7 +348,7 @@
 
       .imgTitle1 {
        padding-top: 35px;
-       padding-left: 17px;
+       padding-left: 0px;
        padding-bottom: 140px;
      }
 
@@ -223,11 +359,22 @@
     }
   }
 
-  @media(min-width: 320px) and (max-width: 390px){
+  @media(min-width: 320px) and (max-width: 960px){
+
+       .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
 
     .slideImg1{
       margin-top: -220px;
-      margin-left: 2px;
+      margin-left: 0px;
     }
 
     .titleText{
@@ -241,7 +388,7 @@
     }
 
     .leftImg{
-      margin-left:-16px;
+      margin-left:-16px
     }
 
     .imgTitle {
@@ -252,18 +399,69 @@
 
     .imgTitle1 {
      padding-top: 35px;
-     padding-left: 0px;
+     padding-left: 17px;
      padding-bottom: 140px;
    }
 
    .imgTitle2 {
     padding-top: 20px;
-    padding-left: 20px;
+    padding-left: 14px;
     padding-bottom: 140px;
   }
 }
 
+@media(min-width: 320px) and (max-width: 390px){
+
+  .slideImg1{
+    margin-top: -220px;
+    margin-left: 2px;
+  }
+
+  .titleText{
+    margin-top:-21px; 
+    width:115%;
+    margin-left: 7%;
+  }
+
+  .leftVideo{
+    margin-left:0px
+  }
+
+  .leftImg{
+    margin-left:-16px;
+  }
+
+  .imgTitle {
+    padding-top: 0px;
+    padding-left: 14px;
+    padding-bottom: 140px;
+  }
+
+  .imgTitle1 {
+   padding-top: 35px;
+   padding-left: 0px;
+   padding-bottom: 140px;
+ }
+
+ .imgTitle2 {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 140px;
+}
+}
+
 @media(min-width: 391px) and (max-width: 700px){
+
+     .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
 
   .slideImg1{
     margin-top: -220px;
@@ -307,6 +505,17 @@
 
 @media(min-width: 701px) and (max-width: 721px){
 
+     .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
+
   .slideImg1{
     margin-top: -220px;
     margin-left: 1px;
@@ -348,6 +557,17 @@
 
 
 @media(min-width: 725px) and (max-width: 1023px){
+
+     .slideImg{
+            margin-top: 110px;
+            
+            }
+
+             .slideImg>p{
+            margin-top: 0px;
+            padding-top:0px;
+            width:none;
+          }
 
   .slideImg1{
     margin-top: -220px;
@@ -472,6 +692,8 @@ hr{
     }  */ 
 
     @media (min-width: 768px){
+
+
       .navbar-fixed-top {
         padding: 1px 0; 
         -webkit-transition: padding .3s;
@@ -485,209 +707,220 @@ hr{
 
   </style>
 
+
   <script>
 
-  </script>
-  <script>
-
-    var id = parent.document.URL.substring(parent.document.URL.indexOf('id=')+3, parent.document.URL.length);
-
-    $( document ).ready(function() {
-      if(id == 1)
-      {
-        $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-
-        $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
-
-        $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
 
 
-        $(".slideImg").append("<ul class=\"bxslider\">\
-          <li><img src=\"img/digitalmuseo/branding/1_cover.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/2_sketches.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/3_sketches.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/4_type.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/5_logo_variation.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/6_background_variation.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/7_donts.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/8_stationery.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/9_stationery.png\" /></li>\
-          <li><img src=\"img/digitalmuseo/branding/10_last_page.png\" /></li>\
-        </ul>");
-
-        $('.bxslider').bxSlider({
-         adaptiveHeight:true,
-         slideWidth:700
-       });
 
 
-        $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
+   var id = parent.document.URL.substring(parent.document.URL.indexOf('id=')+3, parent.document.URL.length);
 
-
-        $(".imgTitle").append("<p><strong>DIGITALMUSEO Branding Guidelines</strong></p><p>The DIGITALMUSEO is a start-up company that brings together artists and art enthusiasts to share digital art. Aiming to bring a museum-like experience to the online community, the DIGITALMUSEO hopes to thrive on a diversity of art as well as an open-minded view towards art and artists. </p><p>Being the Co-Founder and chief designer at the company, I developed the brand of DIGITALMUSEO and ensured that it embodies the flexibility and open-mindedness that the content will portray. In addition to this, since I wanted to ensure that the brand is memorable and simple, I used basic geometric shapes for the logo. This branding guideline provides the user with an array of choices with which to use the DIGITALMUSEO presence.</p>");
-
-
-        $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-
-      }
-      else if(id == 2)
-      {  
-
-       $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-
-       $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
-
-       $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
-
-
-       $(".slideImg").append("<ul class=\"bxslider\">\
-        <li><img src=\"img/digitalmuseo/wireframing/1_homepage.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/2_about_us.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/3_subscribe.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/4_media_request.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/5_be_curator.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/6_browse_art.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/7_internal_art_page.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/8_mobile_app.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/9_navigation.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/10_all_pages.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/11_all_pages.png\" /></li>\
-      </ul>");
-
-       $('.bxslider').bxSlider({
-         adaptiveHeight:true,
-         slideWidth:700
-       });
-
-
-       $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
-
-       $(".imgTitle").append("<p><strong>DIGITALMUSEO Website and Mobile Application</strong></p><p>The DIGITALMUSEO is a start-up company that brings together artists and art enthusiasts to share digital art. Aiming to bring a museum-like experience to the online community, the DIGITALMUSEO hopes to thrive on a diversity of art as well as an open-minded view towards art and artists.</p><p>The website and mobile application for the DIGITALMUSEO are designed on the bases of cleanliness, ease of navigation, and focus on visual elements to provide the user with an enhanced and enriching experience of the art. Here, two different identities of the DIGITALMUSEO are used (check the <a href=\"#\">Branding Guidelines</a> for more information) to showcase the flexibility of the brand.</p>");
-
-
-       $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-
-     }
-     else if(id == 3)
-     {   
+   $( document ).ready(function() {
+    if(id == 1)
+    {
       $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
-      $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
+      $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
 
-      $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px\"></div>");
+$(".secondCol").append("<div class=\"slideImg  portfolio-item\" > <div  class=\"portfolio-link\" data-toggle=\"modal\">\
+                        <div class=\"caption\">\
+                           \
+                        </div>\
+                       \
+                    </div></div>");
 
-      $(".slideImg").append("<p><strong>Hamad International Airport Service Design</strong></p><p>This project involved researching and learning more about a customers journey through Qatar's less than one year old Hamad International Airport. The journey map here shows a typical vacationer's thoughts, feelings, interactions and actions through the airport. Focus is given to how much waiting each phase of the travel experience has.<br><br></p>");
 
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/airportSD/journey_map.png\" style='width:1150px;'/> <br>");
+      $(".portfolio-link").append("<a href=\"#\" id=\"openModal\" data-toggle=\"modal\"data-target=\"#basicModal\"><ul class=\"bxslider\">\
+        <li><img src=\"img/digitalmuseo/branding/1_cover.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/2_sketches.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/3_sketches.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/4_type.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/5_logo_variation.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/6_background_variation.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/7_donts.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/8_stationery.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/9_stationery.png\" /></li>\
+        <li><img src=\"img/digitalmuseo/branding/10_last_page.png\" /></li>\
+      </ul></a>");
+
+      $('.bxslider').bxSlider({
+       adaptiveHeight:true,
+       slideWidth:700
+     });
+
+ 
+
+      $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
 
 
+      $(".imgTitle").append("<p><strong>DIGITALMUSEO Branding Guidelines</strong></p><p>The DIGITALMUSEO is a start-up company that brings together artists and art enthusiasts to share digital art. Aiming to bring a museum-like experience to the online community, the DIGITALMUSEO hopes to thrive on a diversity of art as well as an open-minded view towards art and artists. </p><p>Being the Co-Founder and chief designer at the company, I developed the brand of DIGITALMUSEO and ensured that it embodies the flexibility and open-mindedness that the content will portray. In addition to this, since I wanted to ensure that the brand is memorable and simple, I used basic geometric shapes for the logo. This branding guideline provides the user with an array of choices with which to use the DIGITALMUSEO presence.</p>");
 
-      $(".slideImg").append("<p >Having found immense waiting times for the check-in and security phases, I decided to focus in on one and further illustrate the process of check-in at Hamad International Airport. The blue print here shows the back end, front end, interactions that occur while a single check in procedure is in progress. The customer experience duing web check in at home, web check in at the airport kiosk as well as on site check in at the airport are enlightened. Throughout this process, several areas of breakdown are highlighted.<br><br></p>");
 
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/airportSD/check_in_focus.png\" style='width:1150px;' /> ");
+      $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+
     }
-
-    else if(id == 4)
-    {   
-     $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-
-     $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
-
-     $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px\"></div>");
-
-     $(".slideImg").append("<p><strong>Personal Branding Guidelines</strong></p><br><p>Having been a commuter for most of my life, I have come to become a part of and appreciative of several cultures. Two of these are Indian and Arab, specifically Qatari. I believe these cultures among others have moulded me into the person I am today, and it was imperative to use nuancces from these cultures in my personal identity. By taking inspiration from Indian henna, Arabic caligraphy and the peacock, I was able to truy embody my personality in this visual element.</p><br>");
-
-     $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/personal_brand/brand.png\" style='width:1150px;' /> ");
-
-   }
-
-
-   else if(id == 5)
-   {   
+    else if(id == 2)
+    {  
 
      $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
      $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
 
-     $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
+     $(".secondCol").append("<div class=\"slideImg \" style=\"margin-top:110px; \"></div>");
+
 
      $(".slideImg").append("<ul class=\"bxslider\">\
-      <li><img src=\"img/digitalmuseo/3 cover.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/1 image.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/2 image 2.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/4 type.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/5 logo variation.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/6 background variation.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/7 donts.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/8 stationery 1.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/9 stationery 2.png\" /></li>\
-      <li><img src=\"img/digitalmuseo/10 last page.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/1_homepage.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/2_about_us.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/3_subscribe.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/4_media_request.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/5_be_curator.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/6_browse_art.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/7_internal_art_page.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/8_mobile_app.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/9_navigation.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/10_all_pages.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/11_all_pages.png\" /></li>\
     </ul>");
 
      $('.bxslider').bxSlider({
        adaptiveHeight:true,
-       slideWidth:800
+       slideWidth:700
      });
+
 
      $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
 
-     $(".imgTitle").append("<p><strong>Sanju visits the Surajkund Mela</strong></p><p><em>An Interactive Children's Book</em></p><br><p>New Delhi's annually celebrated fair attracts crowds from around the country. It aims to showcase the different traditions that thrive in India through traditional and handicraft stalls and live performances.</p><p>This interactive book employs digital work such as animation and interactive screens in fusion with non-digital inkpen sketches and folk sounds to create a playful and colorful feel of the <em>Surajkund</em> Fair. </p>");
+     $(".imgTitle").append("<p><strong>DIGITALMUSEO Website and Mobile Application</strong></p><p>The DIGITALMUSEO is a start-up company that brings together artists and art enthusiasts to share digital art. Aiming to bring a museum-like experience to the online community, the DIGITALMUSEO hopes to thrive on a diversity of art as well as an open-minded view towards art and artists.</p><p>The website and mobile application for the DIGITALMUSEO are designed on the bases of cleanliness, ease of navigation, and focus on visual elements to provide the user with an enhanced and enriching experience of the art. Here, two different identities of the DIGITALMUSEO are used (check the <a href=\"#\">Branding Guidelines</a> for more information) to showcase the flexibility of the brand.</p>");
+
 
      $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
    }
-
-   else if(id == 6)
+   else if(id == 3)
    {   
     $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
     $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
 
-    $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px\"></div>");
+    $(".secondCol").append("<div class=\"slideImg slideMoreLeft portfolio-item\" style=\"margin-top:110px; \"> <div class=\"portfolio-link\" data-toggle=\"modal\">\
+                        <div class=\"caption\">\
+                           \
+                        </div>\
+                       \
+                    </div></div>");
 
-    $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol ImgRes\" src=\"img/ambient_device/storyboard.png\" style='width:1150px;' /> ");
+    $(".slideImg").append("<p><strong>Hamad International Airport Service Design</strong></p><p>This project involved researching and learning more about a customers journey through Qatar's less than one year old Hamad International Airport. The journey map here shows a typical vacationer's thoughts, feelings, interactions and actions through the airport. Focus is given to how much waiting each phase of the travel experience has.<br><br></p>");
+
+    $(".slideImg").append("<img class=\"img-responsive mapJourney\" class=\"ImgCol\" src=\"img/airportSD/journey_map.png\" style='width:1150px;'/> <br>");
 
 
 
-    $(".slideImg").append("<br><p><strong>Ambient Device</strong></p><br><p>This project involved researching and learning more about a customers journey through Qatar's less than one year old Hamad International Airport. The journey map here shows a typical vacationer's thoughts, feelings, interactions and actions through the airport. Focus is given to how much waiting each phase of the travel experience has. </p><p>Having found immense waiting times for the check-in and security phases, I decided to focus in on one and further illustrate the process of check-in at Hamad International Airport. The blue print here shows the back end, front end, interactions that occur while a single check in procedure is in progress. The customer experience duing web check in at home, web check in at the airport kiosk as well as on site check in at the airport are enlightened. Throughout this process, several areas of breakdown are highlighted.<br></p>");
+    $(".slideImg").append("<p >Having found immense waiting times for the check-in and security phases, I decided to focus in on one and further illustrate the process of check-in at Hamad International Airport. The blue print here shows the back end, front end, interactions that occur while a single check in procedure is in progress. The customer experience duing web check in at home, web check in at the airport kiosk as well as on site check in at the airport are enlightened. Throughout this process, several areas of breakdown are highlighted.<br><br></p>");
 
-
+    $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/airportSD/check_in_focus.png\" style='width:1150px;' /> ");
   }
 
-  else if(id == 7)
+  else if(id == 4)
   {   
-  $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+   $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
-      $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
+   $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
 
-      $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px\"></div>");
+   $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px\"></div>");
 
-      $(".slideImg").append("<p><strong>TEDxEducationCity</strong></p><p>This project involve event branding and marketing for TEdxEducationCity. Using elements from the location of the event, the Hamad Bin Khalifa University Sudent Center, I created designs for the promotional posters, roll ups as well as email greetings. More specifically, I used the familiar design of the Sculpture Garden within the student center to create a familiar and relatable design and also to attract attention from students on campus. Below is a photo taken of the Sculpture Garden.<br><br></p>");
+   $(".slideImg").append("<p><strong>Personal Branding Guidelines</strong></p><br><p>Having been a commuter for most of my life, I have come to become a part of and appreciative of several cultures. Two of these are Indian and Arab, specifically Qatari. I believe these cultures among others have moulded me into the person I am today, and it was imperative to use nuancces from these cultures in my personal identity. By taking inspiration from Indian henna, Arabic caligraphy and the peacock, I was able to truy embody my personality in this visual element.</p><br>");
 
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/location_reference.png\" style='width:1150px;'/> <br>");
-
-      $(".slideImg").append("<p >Taking inspiration from the above, I provided different options for the look and feel of the event. Below is one of two styles for posters.<br><br></p>");
-
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/poster_location.png\" style='width:900px;' /><br><br> ");
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/poster_black.png\" style='width:900px;' /><br><br> ");
-      $(".slideImg").append("<p >In addition to posters, I also proposed roll up designs.<br><br></p>");
-
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/roll_up.png\" style='width:700px;' /><br><br> ");
-
-      $(".slideImg").append("<p >Below is an email greeting card proposal.<br><br></p>");
-
-      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/christmas_greeting.png\" style='width:900px;' /><br><br> ");
-
+   $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/personal_brand/brand.png\" style='width:1150px;' /> ");
 
  }
- else if(id == 8)
+
+
+ else if(id == 5)
  {   
+
+   $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+
+   $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
+
+   $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px; \"></div>");
+
+   $(".slideImg").append("<ul class=\"bxslider\">\
+    <li><img src=\"img/digitalmuseo/3 cover.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/1 image.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/2 image 2.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/4 type.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/5 logo variation.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/6 background variation.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/7 donts.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/8 stationery 1.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/9 stationery 2.png\" /></li>\
+    <li><img src=\"img/digitalmuseo/10 last page.png\" /></li>\
+  </ul>");
+
+   $('.bxslider').bxSlider({
+     adaptiveHeight:true,
+     slideWidth:800
+   });
+
+
+   $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
+
+   $(".imgTitle").append("<p><strong>Sanju visits the Surajkund Mela</strong></p><p><em>An Interactive Children's Book</em></p><br><p>New Delhi's annually celebrated fair attracts crowds from around the country. It aims to showcase the different traditions that thrive in India through traditional and handicraft stalls and live performances.</p><p>This interactive book employs digital work such as animation and interactive screens in fusion with non-digital inkpen sketches and folk sounds to create a playful and colorful feel of the <em>Surajkund</em> Fair. </p>");
+
+   $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+
+ }
+
+ else if(id == 6)
+ {   
+  $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+
+  $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
+
+  $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px\"></div>");
+
+  $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol ImgRes\" src=\"img/ambient_device/storyboard.png\" style='width:1150px;' /> ");
+
+
+
+  $(".slideImg").append("<br><p><strong>Ambient Device</strong></p><br><p>This project involved researching and learning more about a customers journey through Qatar's less than one year old Hamad International Airport. The journey map here shows a typical vacationer's thoughts, feelings, interactions and actions through the airport. Focus is given to how much waiting each phase of the travel experience has. </p><p>Having found immense waiting times for the check-in and security phases, I decided to focus in on one and further illustrate the process of check-in at Hamad International Airport. The blue print here shows the back end, front end, interactions that occur while a single check in procedure is in progress. The customer experience duing web check in at home, web check in at the airport kiosk as well as on site check in at the airport are enlightened. Throughout this process, several areas of breakdown are highlighted.<br></p>");
+
+
+}
+
+else if(id == 7)
+{   
+ $(".slideImg").append("<ul class=\"bxslider\">\
+  <li><img src=\"img/digitalmuseo/3 cover.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/1 image.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/2 image 2.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/4 type.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/5 logo variation.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/6 background variation.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/7 donts.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/8 stationery 1.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/9 stationery 2.png\" /></li>\
+  <li><img src=\"img/digitalmuseo/10 last page.png\" /></li>\
+</ul>");
+
+ $('.bxslider').bxSlider({
+   adaptiveHeight:true,
+   slideWidth:800
+ });
+
+ $(".imgTitle").append("<p><strong>TEDxEducationCity Event Design</strong></p><br><p>Held in Hamad Bin Khalifa University's Student Center, TEDxEducationCity's main target audience was the student community on campus. In order to create a familiar identity to attract attention, the design was inspired from one of the Student Center's most prominent architectural elements - the sculpture garden.</p>");
+
+}
+else if(id == 8)
+{   
 
   $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
   $(".addStuff").append("<div class=\"secondCol leftVideo col-xs-10 col-sm-10 col-md-10 col-lg-6\" >");
 
-  $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
+  $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px; \"></div>");
 
   $(".slideImg").append("<div class='embed-container'><iframe src='http://player.vimeo.com/video/112918806' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>");
 
@@ -708,12 +941,9 @@ else if(id == 9)
 
  $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
 
- $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px\"></div>");
+ $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px\"></div>");
 
  $(".slideImg").append("<p><strong>7 Days on Whatsapp</strong></p><br><p>This project aimed to illustrate in an infograhic, all Whatsapp communication for a week. Data categories were developed, patterns were found and chats were also analyzed for most common words used.</p>");
-
- $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/airportSD/journey_map.png\" style='width:1150px;'/> <br>");
-
 
 
 
@@ -728,13 +958,13 @@ else if(id == 10)
 
   $(".addStuff").append("<div class=\"secondCol leftImg col-xs-11 col-sm-10 col-md-10 col-lg-6\"\">");
 
-  $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
+  $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px; \"></div>");
 
 
   $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/paintings/untitled.png\" style='width:100%;' /> ");
 
 
-  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText\" style=\"\"></p></div>");
+  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText titleText1\" style=\"\"></p></div>");
 
 
   $(".imgTitle1").append("<p><strong>Untitled</strong></p><p>Saba Singh</p><p>Oils, plastic bags, block printing</p>");
@@ -756,7 +986,7 @@ else if(id == 11)
   $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/paintings/the_tabla_player.png\" style='width:100%;' /> ");
 
 
-  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText\" style=\"\"></p></div>");
+  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText titleText1\" style=\"\"></p></div>");
 
 
   $(".imgTitle1").append("<p><strong>The Tabla Player</strong></p><p>Saba Singh</p><p>Oils</p>");
@@ -779,7 +1009,7 @@ else if(id == 12)
   $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/paintings/reflections.png\" style='width:100%;' /> ");
 
 
-  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText\" style=\"\"></p></div>");
+  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText titleText1\" style=\"\"></p></div>");
 
 
   $(".imgTitle1").append("<p><strong>Reflections</strong></p><p>Saba Singh</p><p>Oils</p>");
@@ -794,13 +1024,13 @@ else if(id == 13)
 
   $(".addStuff").append("<div class=\"secondCol leftImg col-xs-11 col-sm-10 col-md-10 col-lg-6\"\">");
 
-  $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
+  $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px; \"></div>");
 
   $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/paintings/piano_and_drums.png\" style='width:100%;' /> ");
 
 
 
-  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText\" style=\"\"></p></div>");
+  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText titleText1\" style=\"\"></p></div>");
 
   $(".imgTitle1").append("<p><strong>Piano and Drums</strong></p><p>Saba Singh</p><p>Oils, plastic bags, block printing</p><br><br>");
 
@@ -865,19 +1095,19 @@ else if(id == 14)
 
   $(".addStuff").append("<div class=\"secondCol leftImg col-xs-11 col-sm-10 col-md-10 col-lg-6\"\">");
 
-  $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px; \"></div>");
+  $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px; \"></div>");
 
   $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/paintings/yin_yang.png\" style='width:100%;' /> <br><br>");
 
 
 
-  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText\" style=\"\"></p></div>");
+  $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle1 titleText titleText1\" style=\"\"></p></div>");
 
   $(".imgTitle1").append("<p><strong>Yin-Yang</strong></p><p>Saba Singh</p><p>Oils, knives</p>");
 
 
   $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-$(".addStuff1").css("margin-top","100px");
+  $(".addStuff1").css("margin-top","100px");
   $(".addStuff1").append("<div class=\"firstCol1 col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
   $(".addStuff1").append("<div class=\"secondCol1 leftImg col-xs-11 col-sm-10 col-md-10 col-lg-6\"\">");
@@ -890,10 +1120,11 @@ $(".addStuff1").css("margin-top","100px");
 
   $(".imgTitle2").append("<p><strong>Om</strong></p><p>Saba Singh</p><p>Oils, knives</p>");
 
-   $(".addStuff1").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+  $(".addStuff1").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 }
 
 });
+
 
 </script>
 
@@ -926,6 +1157,9 @@ $(".addStuff1").css("margin-top","100px");
             <a href="index.html#portfolioNew">Work</a>
           </li>
           <li class="page-scroll">
+                        <a href="index.html#writingsNew">Writings</a>
+            </li>
+          <li class="page-scroll">
             <a href="index.html#aboutNew">About</a>
           </li>
 
@@ -947,6 +1181,41 @@ $(".addStuff1").css("margin-top","100px");
 
   </div>
 
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+           
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal-body">
+  <!--                        <ul class="bxslider">
+    <li><img src="img/digitalmuseo/3 cover.png" ></li>
+    <li><img src="img/digitalmuseo/1 Image.png" ></li>
+    <li><img src="img/digitalmuseo/2 image 2.png" ></li>
+    <li><img src="img/digitalmuseo/4 type.png" ></li>
+    <li><img src="img/digitalmuseo/5 logo variation.png" ></li>
+    <li><img src="img/digitalmuseo/6 background variation.png" ></li>
+    <li><img src="img/digitalmuseo/7 donts.png"></li>
+    <li><img src="img/digitalmuseo/8 stationery 1.png" ></li>
+    <li><img src="img/digitalmuseo/9 stationery 2.png" ></li>
+    <li><img src="img/digitalmuseo/10 last page.png" ></li>
+  </ul> -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
+<script>
+$(function(){
+$(".mapJourney").click(function(){
+$(".modal-body").append('<img src="img/airportSD/journey_map.png" style=\'margin-top:-120px;width:75%;height:60%\'/>')
+});
+});
+</script>
 </html>
