@@ -656,25 +656,28 @@ hr{
 
   else if(id == 7)
   {   
-   $(".slideImg").append("<ul class=\"bxslider\">\
-    <li><img src=\"img/digitalmuseo/3 cover.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/1 image.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/2 image 2.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/4 type.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/5 logo variation.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/6 background variation.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/7 donts.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/8 stationery 1.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/9 stationery 2.png\" /></li>\
-    <li><img src=\"img/digitalmuseo/10 last page.png\" /></li>\
-  </ul>");
+  $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
-   $('.bxslider').bxSlider({
-     adaptiveHeight:true,
-     slideWidth:800
-   });
+      $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
 
-   $(".imgTitle").append("<p><strong>TEDxEducationCity Event Design</strong></p><br><p>Held in Hamad Bin Khalifa University's Student Center, TEDxEducationCity's main target audience was the student community on campus. In order to create a familiar identity to attract attention, the design was inspired from one of the Student Center's most prominent architectural elements - the sculpture garden.</p>");
+      $(".secondCol").append("<div class=\"slideImg\" style=\"margin-top:110px\"></div>");
+
+      $(".slideImg").append("<p><strong>TEDxEducationCity</strong></p><p>This project involve event branding and marketing for TEdxEducationCity. Using elements from the location of the event, the Hamad Bin Khalifa University Sudent Center, I created designs for the promotional posters, roll ups as well as email greetings. More specifically, I used the familiar design of the Sculpture Garden within the student center to create a familiar and relatable design and also to attract attention from students on campus. Below is a photo taken of the Sculpture Garden.<br><br></p>");
+
+      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/location_reference.png\" style='width:1150px;'/> <br>");
+
+      $(".slideImg").append("<p >Taking inspiration from the above, I provided different options for the look and feel of the event. Below is one of two styles for posters.<br><br></p>");
+
+      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/poster_location.png\" style='width:900px;' /><br><br> ");
+      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/poster_black.png\" style='width:900px;' /><br><br> ");
+      $(".slideImg").append("<p >In addition to posters, I also proposed roll up designs.<br><br></p>");
+
+      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/roll_up.png\" style='width:700px;' /><br><br> ");
+
+      $(".slideImg").append("<p >Below is an email greeting card proposal.<br><br></p>");
+
+      $(".slideImg").append("<img class=\"img-responsive\" class=\"ImgCol\" src=\"img/tedx/christmas_greeting.png\" style='width:900px;' /><br><br> ");
+
 
  }
  else if(id == 8)
