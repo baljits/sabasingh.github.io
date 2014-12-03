@@ -26,25 +26,19 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script>
-            function getImg(id)
-            {
-
-            }
-
-        </script>
+      
         <style>
            body{
-            background-color: #eceadc;
+            background-color: #ffffff;
         }
         #portfolio{
-            background-color: #eceadc;
+            background-color: #ffffff;
         }
         #about{
-            background-color: #eceadc;
+            background-color: #ffffff;
         }
         #writing{
-            background-color: #eceadc;
+            background-color: #ffffff;
         }
 
 
@@ -423,10 +417,10 @@
 
         }
         header{
-            background-color: #eceadc;
+            background-color: #FFFFFF;
         }
         #portfolioNew{
-            background-color: #eceadc;
+            background-color: #ffffff;
         }
 
         #aboutNew{
@@ -434,19 +428,26 @@
             font-family: "Lato-Regular";
             color:black;
         }
-
         #writingsNew{
             /*background-color: #FFFFFF;*/
             font-family: "Lato-Regular";
             color:black;
         }
-
+a{
+    color: #000000;
+}
         #contact{
-            background-color: #eceadc;
+            background-color: #ffffff;
         }
         .Footer{
          background-color: #1b444a;
      }
+     .success{
+        background: #ffffff;
+     }
+     #writingsNew{
+        background-color: #ffffff;
+    }
      #signature{
         font-family:"Lato-Regular";
         color:#1b444a;
@@ -455,13 +456,8 @@
        /* background-color: #eceadc;*/
    }
    #aboutNew{
-    background-color: #eceadc;
+    background-color: #ffffff;
 }
-
-#writingsNew{
-    background-color: #eceadc;
-}
-
 .drawLine{
     margin-top:30px;
 }
@@ -471,9 +467,13 @@ section h2{
     margin-top: -55px;
     padding-bottom: 39px
 }
+h2{
+    float:left;
+}
 footer .footer-above{
     background-color: #1b444a;
     padding-bottom: 20px;
+
 }
 .btn-success{
  background-color: #1b444a;
@@ -483,6 +483,9 @@ footer .footer-below{
     background-color: #eceadc;
     padding:9px;
     color:#1b444a;
+}
+.footer-col{
+    float:inherit;
 }
 hr{
     background: #b14327; 
@@ -521,7 +524,7 @@ hr{
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top">Saba Singh</a>
+                <a class="navbar-brand" href="#page-top"><img class="img-responsive" src="navbar_logo.png" style='height:292%; margin-top:-19px;'></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -853,7 +856,7 @@ hr{
 
             </div>
         </div>
-        <div class="row">
+        <div class="row pubrow">
          <div class="col-sm-12">
 
             <a href="https://www.dropbox.com/s/8a5t3iht77zwbzr/A_Network_Text_Analysis_Fight_club_FinalVersion-v2-libre.pdf?dl=0" target="_blank"><strong><p> A Network Analysis on Fight Club</strong></a></p><p>I worked on this research during my senior year. Using the popular movie <em>Fight Club</em>, I presented a network analysis research that explored etymological roots of specific compound words used in the screenplay at the renowned Sunbelt Conference in Florida, 2014.</p><br>
@@ -1214,6 +1217,16 @@ hr{
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
+
+      <script>
+
+        $(function(){
+$('.navbar-brand').hover().css("color","white");
+$('nav li a').hover().css("color","white");
+$('.pubrow div a').hover().css("color","#1b444a");
+
+});
+        </script>
 </body>
 
 </html>
