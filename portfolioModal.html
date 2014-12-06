@@ -730,6 +730,30 @@ hr{
       background: #fffccc; 
     } 
 
+    .suraj-widget {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+ 
+/* 16x9 Aspect Ratio */
+.suraj-widget {
+  padding-bottom: 56.25%;
+}
+ 
+/* 4x3 Aspect Ratio */
+.suraj-widget {
+  padding-bottom: 75%;
+}
+ 
+.suraj-widget iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
   </style>
 
 
@@ -899,46 +923,25 @@ else if(id == 4)
 
 
 else if(id == 5)
-{   
+ {   
 
- $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+   $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
- $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
+  $(".addStuff").append("<div class=\"secondCol col-xs-10 col-sm-10 col-md-10 col-lg-10\" style=\"margin-left:-10px;\">");
 
- $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px; \"></div>");
+   $(".secondCol").append("<div class=\"slideImg slideMoreLeft\" style=\"margin-top:110px\"></div>");
 
- $(".slideImg").append("<ul class=\"bxslider\">\
-  <li><img src=\"img/surajkund/slideshow/pot_sketch.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/pot_seller.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/henna_sketch1.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/henna_sketch2.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/henna_lady.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/jeweler_sketch.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/jeweler.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/puppeteer_sketch.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/puppeteer.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/live_performers_sketch1.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/live_performers_sketch2.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/live_performers.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/leaving_fair_sketches.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/leaving_fair.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/pocket_money.png\" /></li>\
-  <li><img src=\"img/surajkund/slideshow/store.png\" /></li>\
-</ul>");
-
-$('.bxslider').bxSlider({
- adaptiveHeight:true,
- slideWidth:800
-});
+   $(".slideImg").append("<div class=\"suraj-widget\"><iframe src=\"surajkund mela.wdgt.html\" \
+style=\"border:0px\"></iframe></div>");
 
 
-$(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
+   $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
 
-$(".imgTitle").append("<p><strong>Sanju visits the Surajkund Mela</strong></p><p><em>An Interactive Children's Book</em></p><br><p>New Delhi's annually celebrated fair attracts crowds from around the world. It aims to showcase the different traditions that thrive in India through traditional and handicraft stalls and live performances.</p><p>This interactive book employs digital work such as animation and interactive screens in fusion with non-digital inkpen sketches and folk sounds to create a playful and colorful feel of the <em>Surajkund</em> Fair. </p>");
+   $(".slideImg").append("<p><strong>Sanju visits the Surajkund Mela</strong></p><p><em>An Interactive Children's Book</em></p><br><p>New Delhi's annually celebrated fair attracts crowds from around the country. It aims to showcase the different traditions that thrive in India through traditional and handicraft stalls and live performances.</p><p>This interactive book employs digital work such as animation and interactive screens in fusion with non-digital inkpen sketches and folk sounds to create a playful and colorful feel of the <em>Surajkund</em> Fair. </p>");
 
-$(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+   $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
-}
+ }
 
 else if(id == 6)
 {   
