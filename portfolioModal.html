@@ -802,7 +802,7 @@ hr{
 
       $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
 
-      $(".secondCol").append("<div class=\"slideImg  portfolio-item\" > <div  class=\"portfolio-link\" data-toggle=\"modal\">\
+      $(".secondCol").append("<div class=\"slideImg  portfolio-item\" style=\"margin-top:110px\" > <div  class=\"portfolio-link\" data-toggle=\"modal\">\
         <div class=\"caption\">\
          \
        </div>\
@@ -845,59 +845,60 @@ hr{
     {  
 
 
-      $(".carousel-inner").empty();
+     $(".carousel-inner").empty();
 
-      $(".carousel-inner").append("<div class=\"item active\">\
-        <img class=\"img-responsive\" src=\"img/digitalmuseo/branding/1_cover.png\" >\
-        \
-      </div>\
-      <div class=\"item\">\
-        <img class=\"img-responsive\" src=\"img/digitalmuseo/branding/2_sketches.png\" >\
-        \
-      </div>\
-      <div class=\"item\">\
-        <img class=\"img-responsive\" src=\"http://placehold.it/1200x600/fcf00c/000&text=Three\">\
-        \
-      </div>");
-
-
-
-      $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
-
-      $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
-
-      $(".secondCol").append("<div class=\"slideImg \" style=\"margin-top:110px; \"></div>");
+         $(".carousel-inner").append("<div class=\"item active\">\
+    <img class=\"img-responsive\" src=\"img/digitalmuseo/branding/1_cover.png\" >\
+     \
+    </div>\
+    <div class=\"item\">\
+      <img class=\"img-responsive\" src=\"img/digitalmuseo/branding/2_sketches.png\" >\
+      \
+    </div>\
+     <div class=\"item\">\
+      <img class=\"img-responsive\" src=\"http://placehold.it/1200x600/fcf00c/000&text=Three\">\
+      \
+    </div>");
 
 
-      $(".slideImg").append("<ul class=\"bxslider\">\
-        <li><img src=\"img/digitalmuseo/wireframing/1_white_brand.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/1_homepage.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/2_about_us.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/3_subscribe.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/4_media_request.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/5_be_curator.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/6_browse_art.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/7_internal_art_page.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/7_blue_brand.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/8_mobile_app.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/9_navigation.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/10_all_pages.png\" /></li>\
-        <li><img src=\"img/digitalmuseo/wireframing/11_all_pages.png\" /></li>\
-      </ul>");
+     $(".addStuff").append("<div class=\"firstCol col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 
-$('.bxslider').bxSlider({
- adaptiveHeight:true,
- slideWidth:700
-});
+     $(".addStuff").append("<div class=\"secondCol col-xs-11 col-sm-10 col-md-10 col-lg-6\" style=\"margin-left:-10px;\">");
+
+     $(".secondCol").append("<div class=\"slideImg  portfolio-item\" style=\"margin-top:110px\"> <div  class=\"portfolio-link\" data-toggle=\"modal\">\
+        <div class=\"caption\">\
+         \
+       </div>\
+       \
+     </div></div>");
 
 
-$(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
+     $(".portfolio-link").append("<a href=\"#\" id=\"openModal\"  data-toggle=\"modal\" data-target=\".bs-example-modal-lg\"><ul class=\"bxslider\">\
+      <li><img src=\"img/digitalmuseo/wireframing/1_homepage.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/2_about_us.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/3_subscribe.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/4_media_request.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/5_be_curator.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/6_browse_art.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/7_internal_art_page.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/8_mobile_app.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/9_navigation.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/10_all_pages.png\" /></li>\
+      <li><img src=\"img/digitalmuseo/wireframing/11_all_pages.png\" /></li>\
+    </ul>");
 
-$(".imgTitle").append("<p><strong><font size=\"4.5\">DIGITALMUSEO</font> Website & Mobile Application</strong></p><p>The <font size=\"3\">DIGITALMUSEO</font> is a start-up company that brings together artists and art enthusiasts to share digital art. Aiming to bring a museum-like experience to the online community, the <font size=\"3\">DIGITALMUSEO</font> hopes to thrive on a diversity of art as well as an open-minded view towards art and artists.</p><p>The website and mobile application for the <font size=\"3\">DIGITALMUSEO</font> are designed on the bases of cleanliness, ease of navigation, and focus on visual elements to provide the user with an enhanced and enriching experience of the art. Here, two different identities of the <font size=\"3\">DIGITALMUSEO</font> are used (check the <a href=\"#\">Branding Guidelines</a> for more information about the identities) to showcase the flexibility of the brand.</p>");
+     $('.bxslider').bxSlider({
+       adaptiveHeight:true,
+       slideWidth:700
+     });
 
 
-$(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
+     $(".addStuff").append("<div class=\"thirdCol col-xs-9 col-sm-8 col-md-10 col-lg-4\"><p class=\"imgTitle titleText\" style=\"\"></p></div>");
 
+     $(".imgTitle").append("<p><strong>DIGITALMUSEO Website and Mobile Application</strong></p><p>The DIGITALMUSEO is a start-up company that brings together artists and art enthusiasts to share digital art. Aiming to bring a museum-like experience to the online community, the DIGITALMUSEO hopes to thrive on a diversity of art as well as an open-minded view towards art and artists.</p><p>The website and mobile application for the DIGITALMUSEO are designed on the bases of cleanliness, ease of navigation, and focus on visual elements to provide the user with an enhanced and enriching experience of the art. Here, two different identities of the DIGITALMUSEO are used (check the <a href=\"#\">Branding Guidelines</a> for more information) to showcase the flexibility of the brand.</p>");
+
+
+     $(".addStuff").append("<div class=\"col-xs-1 col-sm-1 col-md-1 col-lg-1\"></div>");
 }
 else if(id == 3)
 {   
