@@ -414,9 +414,7 @@
                     margin-bottom: 303px;
                 }
                 
-                p{
-                    font-size:18px;
-                }
+               
 
             }
 
@@ -1302,6 +1300,13 @@ $('nav li a').hover().css("color","white");
 $('.pubrow div a').hover().css("color","#1b444a");
 $('#resume').hover().css("color","#1b444a");
 
+if($(window).height()>1120 && $(window).height()<1279){
+    $("p").csc("font-size","18px");
+}
+else{
+    $("p").csc("font-size","20px");
+}
+}
 });
         </script>
 </body>
